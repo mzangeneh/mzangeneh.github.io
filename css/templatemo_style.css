@@ -137,22 +137,32 @@ input[type="search"]:-webkit-search-decoration {
     padding: 0 0 20px 0
   }
 ul.countdown span {
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: bold;
   text-align: center;
   display: inline-block;
+  line-height: 2em;
 }
 ul.countdown li {
   background: #212121;
-  border: 2px solid #FFFFFF;
-  border-radius: 50%;
-  color: #FFFFFF;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  display: inline-block;
-  transition: all 0.3s ease-in;
-  margin: 40px 20px 0 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease-in;
+    margin: 40px 20px 0 20px;
+    padding-top: 60px; 
+}
+.Footer {
+    width: 410px;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
 ul.countdown li:hover
   {
@@ -160,6 +170,7 @@ ul.countdown li:hover
     border: none;
     color: #FFFFFF;
     transform: scale(1.2);
+    opacity: 1;
   }
 ul.countdown li h3
   {
