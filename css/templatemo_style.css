@@ -1005,3 +1005,11 @@ div.contact-form input.mainBtn {
         margin-top: 0;
     }
 }
+
+.flex-direction-nav {
+    display: none;
+}
+
+.flex-direction-nav.new-nav {
+    display: block;
+}
